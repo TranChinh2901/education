@@ -61,4 +61,4 @@ window.onscroll = () =>{
       sideBar.classList.remove('active');
       body.classList.remove('active');
    }
-}
+}  
