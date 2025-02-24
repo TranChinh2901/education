@@ -62,3 +62,43 @@ window.onscroll = () =>{
       body.classList.remove('active');
    }
 }  
+
+
+
+
+
+
+
+function change(){
+   icon = document.getElementsByClassName("change-color")[0];
+   icon.style.color = "red"
+}
+
+function changeIcona(){
+   icon = document.getElementsByClassName("color-icona")[0];
+
+   if(icon.style.color === "red"){
+      icon.style.color = "";
+   }
+   else{
+      icon.style.color = "red"
+   }
+}
+
+function changeIconb(){
+   icon = document.getElementsByClassName("color-iconb")[0];
+
+   if(icon.style.color === "yellow") {
+      icon.style.color = "";
+   }
+   else{
+      icon.style.color = "yellow";	
+   }
+}
+
+
+function changeIconc(){
+   icon = document.getElementsByClassName("color-iconc")[0];
+
+  icon.style.color = icon.style.color==="yellow"?"":"yellow";
+}
